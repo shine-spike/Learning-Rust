@@ -1,0 +1,14 @@
+cargo build new --bin
+This makes a new cargo project. --bin specifies it's a binary, not a library.
+
+cargo build
+This makes the app.
+Adding --release builds it with optimizations. 
+
+cargo check
+This checks if your project will compile without creating the executable. It's faster than build.
+
+cargo run
+This will compile and run your project in one step. Use it for testing.
+
+
